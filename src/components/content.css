@@ -1,0 +1,94 @@
+.containerSearch {
+    margin-top: 120px; 
+    margin-left: 280px;
+    width: 1240px; 
+    height: 120px; 
+    background: white;
+  }
+  
+  #searchDiv {
+    display: inline;
+    float: right;
+    margin-top: 35px;
+    margin-right: 30px;
+  }
+  
+  #titleDiv {
+    display: inline;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+  } 
+  
+  #searchInput {
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+    
+  }
+
+  #searchBtn {
+    height: 50px;
+    background: turquoise;
+    text-align: center;
+    color: white;
+    border: 0ch;
+  }
+
+  .containerCard {
+    margin-left: 265px;
+    margin-top: 20px;
+  }
+
+  #imgCard {
+    border-radius: 50%;
+  }
+
+  .card {
+    color: grey;
+  }
+
+  .buttonPages {
+    position: relative;
+    width: 50%;
+    bottom: -50px;
+    margin-left: 760px;
+  }
+
+  .buttonPages > button {
+    background: transparent;
+    border: none;
+    color: grey;
+  }
+  
+  #btnPrev {
+    margin-right: 30px;
+  }
+
+  #btnNext {
+    margin-left: 30px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .containerSearch {
+      margin-left: 20px;
+      width: 360px; 
+      height: 250px; 
+    }
+
+    #searchInput {
+      width: 300px;
+      margin-left: 60px;
+      margin-top: -20px;
+    }
+
+    #searchBtn {
+      width: 300px;
+      margin-left: 60px;
+      margin-top: 10px;
+    }
+
+    .containerCard {
+      margin-left: 20px;
+    }
+}
